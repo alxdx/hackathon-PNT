@@ -1,9 +1,54 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>Landing page</title>
-</head>
-<body>
-	<h1>landing page</h1>
-</body>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <title>Landing page</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="logoBox">
+        <img
+          id="logoh"
+          class="logo animate__animated animate__zoomIn"
+          src="https://www.plataformadetransparencia.org.mx/inai-tema-theme/images/logoheader.png"
+        />
+      </div>
+      <h1 class="title animate__animated animate__zoomIn">Consulta información</h1>
+      <div class="search animate__animated animate__zoomIn">
+        <input
+          type="text"
+          id="cadenaBusqueda"
+          class="searchInput"
+          placeholder="  Buscar"
+          onkeypress="headerTextSearch(event, 'https://buscador.plataformadetransparencia.org.mx/web/guest/buscadornacional?buscador=');"
+        />
+        <button class="searchButton" onclick="searchInBuscadorPnt('https://buscador.plataformadetransparencia.org.mx/web/guest/buscadornacional?buscador=');">
+          <i class="material-icons"> search </i>
+        </button>
+      </div>
+      <div>
+        <h2>aqui va lo del mapa</h2>
+      </div>
+    </div>
+  </body>
 </html>
