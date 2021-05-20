@@ -2,6 +2,12 @@ body {
     overflow: hidden;
 }
 
+.searchBar {
+    text-align: center;
+    color: #fff;
+    padding-top: 10em;
+}
+
 #header1 {
     animation-delay: 1s;
 }
