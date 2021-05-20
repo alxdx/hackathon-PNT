@@ -163,8 +163,8 @@ h2 {
 
 .float {
     position: fixed;
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     top: 5px;
     right: 5px;
     background-color: rgb(211, 54, 151);
