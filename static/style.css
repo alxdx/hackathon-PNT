@@ -60,7 +60,8 @@ html {
 .enlaces {
     display: flex;
     align-items: center;
-    justify-content: center
+    justify-content: center;
+    margin: auto;
 }
 
 .title,
@@ -70,13 +71,13 @@ input {
 }
 
 .section2 {
-    color: #8a3ad5;
+    color: #d53abb;
     text-transform: capitalize;
     text-align: center;
 }
 
 h2 {
-    color: #8a3ad5;
+    color: #d53abb;
     text-transform: capitalize;
     text-align: center;
 }
