@@ -70,11 +70,13 @@ input {
 }
 
 a {
-    font-weight: normal;
-    font-style: normal;
-    font-size: 26px;
+    text-decoration: none;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 35px;
+}
+
+a:hover {
+    opacity: 0.8;
 }
 
 .material-icons,
