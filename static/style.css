@@ -4,12 +4,12 @@ body {
 
 .content {
     text-align: center;
-}
-
-.wrap {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.wrap {
     text-align: center;
     color: #fff;
     font-size: 35px;
