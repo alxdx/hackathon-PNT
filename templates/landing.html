@@ -32,16 +32,19 @@
         </div>
     </div>
     <div id="searchBar" class="search">
-        <h1>
-            <a href="" class="typewrite" data-period="2000" data-type='[ "Hola. ¿que deseas buscar?", "Sindicatos.", "Agua y medio ambiente.", "Partidos politicos." ]'>
-                <span class="wrap"></span>
-            </a>
-        </h1>
-        <div class="searchElements">
-            <input type="text" id="cadenaBusqueda" class="searchInput" placeholder="  Buscar" onkeypress="headerTextSearch(event, 'https://buscador.plataformadetransparencia.org.mx/web/guest/buscadornacional?buscador=');" />
-            <button class="searchButton" onclick="loadResult()"><i class="material-icons"> search </i></button>
-            <div id="result"></div>
+        <div class="content">
+            <h1>
+                <a href="" class="typewrite" data-period="2000" data-type='[ "Hola. ¿que deseas buscar?", "Sindicatos.", "Agua y medio ambiente.", "Partidos politicos." ]'>
+                    <span class="wrap"></span>
+                </a>
+            </h1>
+            <div class="searchElements">
+                <input type="text" id="cadenaBusqueda" class="searchInput" placeholder="  Buscar" onkeypress="headerTextSearch(event, 'https://buscador.plataformadetransparencia.org.mx/web/guest/buscadornacional?buscador=');" />
+                <button class="searchButton" onclick="loadResult()"><i class="material-icons"> search </i></button>
+                <div id="result"></div>
+            </div>
         </div>
+
     </div>
     <h2 class="section2" id="info_publica">Instituciones por estado</h2>
     <div id="mp"></div>

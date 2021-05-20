@@ -2,7 +2,9 @@ body {
     overflow: hidden;
 }
 
-.typewrite {}
+.content {
+    text-align: center;
+}
 
 .wrap {
     text-align: center;
