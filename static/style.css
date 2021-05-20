@@ -70,7 +70,7 @@ input {
 }
 
 .section2 {
-    color: #e22dd9;
+    color: #8a3ad5;
     text-transform: capitalize;
     text-align: center;
 }
@@ -96,10 +96,14 @@ h2 {
 }
 
 #buscador:hover {
+    font-size: 37;
+    color: #8a3ad5;
     opacity: 0.8;
 }
 
 #info:hover {
+    font-size: 37;
+    color: #8a3ad5;
     opacity: 0.8;
 }
 
