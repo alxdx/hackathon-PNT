@@ -11,7 +11,10 @@ html {
 font-family: 'Lato', sans-serif;
   color: white;
 }
-
+.emphasis{
+  color:#CABAC8; 
+  font-weight:bold; 
+}
 .logo {
     max-width: 30%;
     height: auto;
