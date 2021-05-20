@@ -2,10 +2,16 @@ body {
     overflow: hidden;
 }
 
-.wrap {
+.search {
     text-align: center;
     color: #fff;
     padding-top: 10em;
+}
+
+.searchElements {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #header1 {
