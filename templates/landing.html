@@ -1,65 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
     <title>Explorar Información Pública</title>
     <link href="{{url_for('static',filename='style.css')}}" rel="stylesheet" />
-  </head>
-  <body>
+</head>
+
+<body>
     <div class="container">
-      <div class="logoBox">
-        <img
-          id="logoh"
-          class="logo animate__animated animate__zoomIn"
-          src="https://www.plataformadetransparencia.org.mx/inai-tema-theme/images/logoheader.png"
-        />
-      </div>
-      <h1 id="header1" class="title animate__animated animate__zoomIn">Existen mas de 
-        <span class="emphasis">8000</span>  
-        Instituciones con información Pública</h1>
-      <h1 id="header2" class="title animate__animated animate__zoomIn">Hemos clasificado cerca de 
-        <span class="emphasis">4000</span>
-        para ti</h1>
-      <H1 id="header3" class="title animate__animated animate__zoomIn"> o puedes consultar el buscador de preguntas </H1>
-      <div class="search animate__animated animate__zoomIn">
-        <input
-          type="text"
-          id="cadenaBusqueda"
-          class="searchInput"
-          placeholder="  Buscar"
-          onkeypress="headerTextSearch(event, 'https://buscador.plataformadetransparencia.org.mx/web/guest/buscadornacional?buscador=');"
-        />
-        <button class="searchButton" onclick="loadResult()">
+        <div class="logoBox">
+            <img id="logoh" class="logo animate__animated animate__zoomIn" src="https://www.plataformadetransparencia.org.mx/inai-tema-theme/images/logoheader.png" />
+        </div>
+        <h1 id="header1" class="title animate__animated animate__zoomIn">Existen mas de
+            <span class="emphasis">8000</span> Instituciones con información Pública</h1>
+        <h1 id="header2" class="title animate__animated animate__zoomIn">Hemos clasificado cerca de
+            <span class="emphasis">4000</span> para ti</h1>
+        <H1 id="header3" class="title animate__animated animate__zoomIn"> o puedes consultar el buscador de preguntas </H1>
+        <div class="search animate__animated animate__zoomIn">
+            <input type="text" id="cadenaBusqueda" class="searchInput" placeholder="  Buscar" onkeypress="headerTextSearch(event, 'https://buscador.plataformadetransparencia.org.mx/web/guest/buscadornacional?buscador=');" />
+            <button class="searchButton" onclick="loadResult()">
           <i class="material-icons"> search </i>
         </button>
-        <div id="result"></div>
-      </div>
-      <div class="search animate__animated animate__zoomIn"> 
-        <a > Buscador </a>
-        <a href="#info_publica" > Instituciones por estado</a>
-      </div>
+            <div id="result"></div>
+        </div>
+        <div class="search animate__animated animate__zoomIn">
+            <a class="buscador animate__animated animate__fadeInUp"> Buscador </a>
+            <a href="#info_publica" class="info animate__animated animate__fadeInUp"> Instituciones por estado</a>
+        </div>
     </div>
-        <h1 id="info_publica" >Instituciones por estado</h1>
-        <div id="mp" ></div>
+    <h1 id="info_publica">Instituciones por estado</h1>
+    <div id="mp"></div>
 
     <script src="//d3plus.org/js/d3.js"></script>
     <script src="//d3plus.org/js/topojson.js"></script>
@@ -69,5 +47,6 @@
     <script src="{{url_for('static',filename='scripts/search.js')}}"></script>
 
     <!-- <script src="{{url_for('static',filename='scripts/pnt_main.js')}}"></script> -->
-  </body>
+</body>
+
 </html>

@@ -69,7 +69,11 @@ input {
     height: 100vh;
 }
 
-a {}
+a {
+    font-weight: normal;
+    font-style: normal;
+    font-size: 26px;
+}
 
 .material-icons,
 .material-icons-outlined {
