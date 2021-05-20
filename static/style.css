@@ -2,7 +2,10 @@ body {
     overflow: hidden;
 }
 
+.typewrite {}
+
 .wrap {
+    text-align: center;
     color: #fff;
     font-size: 35px;
 }
