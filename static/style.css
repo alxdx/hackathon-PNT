@@ -57,6 +57,12 @@ html {
     box-shadow: 3px 2px 9px 1px #192931bd;
 }
 
+.enlaces {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
 .title,
 input {
     text-transform: capitalize;
