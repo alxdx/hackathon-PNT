@@ -58,9 +58,7 @@ html {
 }
 
 .enlaces {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: inline;
     margin: auto;
 }
 
@@ -130,7 +128,9 @@ h2 {
 
 @media (min-width: 900px) {
     .enlaces {
-        display: inline;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         margin: auto;
     }
 }
