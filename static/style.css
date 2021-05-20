@@ -82,6 +82,7 @@ html {
 }
 
 .enlaces {
+    display: flex;
     margin-top: 50px;
     margin-bottom: 40px;
     text-align: center;
