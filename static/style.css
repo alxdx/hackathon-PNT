@@ -82,13 +82,18 @@ h2 {
     height: 100vh;
 }
 
-.links {
+#buscador,
+#info {
     text-decoration: none;
     font-size: 35px;
     color: white;
 }
 
-.links:hover {
+#buscador:hover {
+    opacity: 0.8;
+}
+
+#info:hover {
     opacity: 0.8;
 }
 
