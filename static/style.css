@@ -62,6 +62,16 @@ input {
     text-align: center;
 }
 
+#info_publica {
+    color: #e22dd9;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+#mp {
+    background-color: rgb(39, 39, 39);
+}
+
 .container {
     background: #8a3ad5;
     background: -webkit-linear-gradient(to right, #630116, #9a2de2);
@@ -69,15 +79,13 @@ input {
     height: 100vh;
 }
 
-.buscador,
-.info {
+.links {
     text-decoration: none;
-    font-weight: bold;
     font-size: 35px;
     color: white;
 }
 
-a:hover {
+.links:hover {
     opacity: 0.8;
 }
 
