@@ -120,6 +120,13 @@ h2 {
     font-size: 35px;
     color: white;
     margin: 10px;
+    background-color: blueviolet;
+    box-shadow: 2px 2px 3px rgb(0, 0, 0);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
 }
 
 #buscador:hover {
