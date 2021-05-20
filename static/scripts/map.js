@@ -2,7 +2,7 @@ data = fetch('/static/sujetos_por_estado.json')
   .then(response => response.json())
   .then(data => {
 
-    console.log(data)
+    //console.log(data)
 
     var visualization = d3plus.viz()
     .container("#mp")

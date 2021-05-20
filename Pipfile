@@ -8,6 +8,7 @@ flask = "*"
 pynvim = "*"
 gunicorn = "*"
 flask-cors = "*"
+nltk = "*"
 
 [dev-packages]
 
