@@ -93,17 +93,18 @@ h2 {
     text-decoration: none;
     font-size: 35px;
     color: white;
+    margin: auto;
 }
 
 #buscador:hover {
-    font-size: 37;
-    color: #8a3ad5;
+    font-size: 40;
+    color: #ff97ff;
     opacity: 0.8;
 }
 
 #info:hover {
-    font-size: 37;
-    color: #8a3ad5;
+    font-size: 40;
+    color: #ff97ff;
     opacity: 0.8;
 }
 
