@@ -3,9 +3,8 @@ body {
 }
 
 .wrap {
-    text-align: center;
     color: #fff;
-    padding-top: 10em;
+    font-size: 35px;
 }
 
 .searchElements {
@@ -115,13 +114,13 @@ h2 {
 }
 
 #buscador:hover {
-    font-size: 40;
+    font-size: 40px;
     color: #ff97ff;
     opacity: 0.8;
 }
 
 #info:hover {
-    font-size: 40;
+    font-size: 40px;
     color: #ff97ff;
     opacity: 0.8;
 }
