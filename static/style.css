@@ -17,6 +17,7 @@ h1 {
 html {
     font-family: 'Lato', sans-serif;
     color: white;
+    background-color: rgb(39, 39, 39);
 }
 
 .emphasis {
@@ -66,10 +67,6 @@ input {
     color: #e22dd9;
     text-transform: capitalize;
     text-align: center;
-}
-
-#mp {
-    background-color: rgb(39, 39, 39);
 }
 
 .container {
