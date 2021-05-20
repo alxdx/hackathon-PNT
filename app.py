@@ -6,7 +6,6 @@ from nltk.tokenize import word_tokenize
 import re
 import nltk
 
-nltk.download('punkt')
 
 app = Flask(__name__)
 CORS(app)
@@ -21,7 +20,7 @@ def send():
 
 @app.route('/nlp-module')
 def clean_cadena():
-	string = request.args.get('cadena')
+	string = request.args.get('cadena').lower()
 
 	string=re.sub(r'[^\w\s]+',' ',string) #elimina simbolos
 	string=re.sub(r"^\d+\s|\s\d+\s|\s\d+$",' ',string) ##elimina numeros solos
@@ -30,7 +29,7 @@ def clean_cadena():
 	stop_words=set(stopwords.words('spanish'))
 	palabras = ""
 	for w in tokenizada:
-		if w not in nstop_words:
+		if w not in stop_words:
 			palabras += (" "+w)
 
 	return {"data":palabras},200

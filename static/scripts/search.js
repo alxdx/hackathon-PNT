@@ -6,9 +6,11 @@ function loadResult() {
         .then(response => response.json())
         .then(data => {
             console.log(data.data)
-                //window.open(query+data+"&coleccion=5")
+                window.open(query+data.data+"&coleccion=5")
         })
 }
+
+
 var TxtType = function(el, toRotate, period) {
     this.toRotate = toRotate;
     this.el = el;
