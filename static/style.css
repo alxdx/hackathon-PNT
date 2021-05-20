@@ -7,12 +7,15 @@
 #header3{
   animation-delay: 3s;
 }
+h1{
+  color:#e2e2e2;
+}
 html {
 font-family: 'Lato', sans-serif;
   color: white;
 }
 .emphasis{
-  color:#CABAC8; 
+  color:#ffffff; 
   font-weight:bold; 
 }
 .logo {
