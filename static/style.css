@@ -69,6 +69,12 @@ input {
     text-align: center;
 }
 
+h2 {
+    color: #8a3ad5;
+    text-transform: capitalize;
+    text-align: center;
+}
+
 .container {
     background: #8a3ad5;
     background: -webkit-linear-gradient(to right, #630116, #9a2de2);
