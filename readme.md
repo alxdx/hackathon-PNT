@@ -14,7 +14,7 @@ Público en general, especialmente personas que no conocen el tipo de informaci�
 
 La PNT actualmente no ofrece una búsqueda lo suficientemente amigable para el usuario. Creemos que es más importante enfocarse en la información que las instituciones ofrecen. Es por eso que clasificamos los más de 8000 sujetos obligados que están registrados en todo el país y los clasificamos por categorías. Además sintetizamos toda esa información en un mapa interactivo que ofrezca un componente de &quot;gamification&quot;, genere interés e incentive al usuario promedio a explorar las instituciones con datos abiertos. En la imagen siguiente se muestra la interfaz de búsqueda de la información pública actual que ofrece la PNT:
 
-![](1.jpg)
+![](assets/1.jpg)
 
 ### Propuesta
 
@@ -47,17 +47,17 @@ Estas queries son muy comunes pues la eficacia de los motores de búsqueda como 
 
 Se muestra como ejemplo que el número de resultado es mínimo o ninguno para queries &quot;más humanas&quot; e intuitivas:
 
-![](2.jpg)
+![](assets/2.jpg)
 
 Con esta nueva capa los resultados que se devuelven bajo la misma consulta son significativamente más pues pasan de **39** a **59925** en esta consulta.
 
 Consulta en nuestra aplicación:
 
-![](3.png)
+![](assets/3.png)
 
 Resultados de la búsqueda:
 
-![](4.png)
+![](assets/4.png)
 
 Debido a la forma en la que está implementada la búsqueda en la PNT esta capa se agregó del lado de nuestro servidor de aplicación.
 
@@ -88,11 +88,11 @@ El archivo json resultante de dicho procesamiento de datos se encuentra en el en
 
 Los tiempos de respuesta mejoran considerablemente al consultar la lista de instituciones.
 
-![](5.png)
+![](assets/5.png)
 
 Al hacer click se muestran la lista de instituciones a detalle por categoría, lo que facilita considerablemente la exploración en la información, A diferencia de la lista por orden alfabético que la PNT ofrece actualmente
 
-![](6.png)
+![](assets/6.png)
 
 Al hacer click en alguna de las instituciones se debería poder acceder a la ventana del sujeto obligado que que ya ofrece la PNT.
 
