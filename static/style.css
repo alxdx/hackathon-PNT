@@ -165,8 +165,8 @@ h2 {
     position: fixed;
     width: 60px;
     height: 60px;
-    top: 40px;
-    right: 40px;
+    top: 5px;
+    right: 5px;
     background-color: rgb(211, 54, 151);
     color: #FFF;
     border-radius: 50px;
