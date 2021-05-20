@@ -48,9 +48,6 @@ html {
     background: -webkit-linear-gradient(to right, #630116, #9a2de2);
     background: linear-gradient( to right, #630116, #9a2de2);
     height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center
 }
 
 .searchButton {
