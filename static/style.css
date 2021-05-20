@@ -127,3 +127,10 @@ h2 {
     -moz-osx-font-smoothing: grayscale;
     font-feature-settings: 'liga';
 }
+
+@media (min-width: 900px) {
+    .enlaces {
+        display: inline;
+        margin: auto;
+    }
+}
