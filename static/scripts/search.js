@@ -6,10 +6,20 @@ function loadResult() {
         .then(response => response.json())
         .then(data => {
             console.log(data.data)
-                window.open(query+data.data+"&coleccion=5")
+            window.open(query + data.data + "&coleccion=5")
         })
 }
 
+var input = document.getElementById("cadenaBusqueda");
+
+input.addEventListener("keyup", function(event) {
+    if (event.key === 13) {
+        // Cancel the default action, if needed
+        event.preventDefault();
+        // Trigger the button element with a click
+        document.getElementById("btnsearch").click();
+    }
+});
 
 var TxtType = function(el, toRotate, period) {
     this.toRotate = toRotate;
