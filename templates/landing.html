@@ -21,7 +21,7 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
-    <title>Landing page</title>
+    <title>Explorar Información Pública</title>
     <link href="{{url_for('static',filename='style.css')}}" rel="stylesheet" />
   </head>
   <body>
@@ -33,7 +33,9 @@
           src="https://www.plataformadetransparencia.org.mx/inai-tema-theme/images/logoheader.png"
         />
       </div>
-      <h1 class="title animate__animated animate__zoomIn">Consulta información</h1>
+      <h1 class="title animate__animated animate__zoomIn">Existen mas de 8000 Instituciones con información Pública</h1>
+      <h1 class="title animate__animated animate__zoomIn">Hemos clasificado cerca de 4000 para ti</h1>
+      <H1 class="title animate__animated animate__zoomIn"> o puedes consultar el buscador de preguntas </H1>
       <div class="search animate__animated animate__zoomIn">
         <input
           type="text"
@@ -48,14 +50,16 @@
         <div id="result"></div>
       </div>
     </div>
-        <h1 id="info_publica" >Información Pública</h1>
+        <h1 id="info_publica" >Instituciones por estado</h1>
         <div id="mp" ></div>
+
     <script src="//d3plus.org/js/d3.js"></script>
     <script src="//d3plus.org/js/topojson.js"></script>
     <script src="//d3plus.org/js/d3plus.js"></script>
     <script src="{{url_for('static',filename='scripts/map.js')}}"></script>>
     <link href="{{url_for('static',filename='style_map.css')}}" rel="stylesheet" />
-    <script src="{{url_for('static',filename='scripts/search.js')}}"></script>>
+    <script src="{{url_for('static',filename='scripts/search.js')}}"></script>
 
+    <!-- <script src="{{url_for('static',filename='scripts/pnt_main.js')}}"></script> -->
   </body>
 </html>

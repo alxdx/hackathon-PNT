@@ -1,6 +1,8 @@
 from flask import Flask, render_template, url_for
-app=Flask(__name__)
+from flask_cors import CORS
 
+app = Flask(__name__)
+CORS(app)
 @app.route('/')
 def home():
     return render_template('landing.html')
