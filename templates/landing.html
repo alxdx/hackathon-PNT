@@ -42,9 +42,10 @@
           placeholder="  Buscar"
           onkeypress="headerTextSearch(event, 'https://buscador.plataformadetransparencia.org.mx/web/guest/buscadornacional?buscador=');"
         />
-        <button class="searchButton" onclick="searchInBuscadorPnt('https://buscador.plataformadetransparencia.org.mx/web/guest/buscadornacional?buscador=');">
+        <button class="searchButton" onclick="loadResult()">
           <i class="material-icons"> search </i>
         </button>
+        <div id="result"></div>
       </div>
     </div>
         <h1>Información Pública</h1>
@@ -54,5 +55,7 @@
     <script src="//d3plus.org/js/d3plus.js"></script>
     <script src="{{url_for('static',filename='scripts/map.js')}}"></script>>
     <link href="{{url_for('static',filename='style_map.css')}}" rel="stylesheet" />
+    <script src="{{url_for('static',filename='scripts/search.js')}}"></script>>
+
   </body>
 </html>
